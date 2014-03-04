@@ -1,5 +1,4 @@
-import os, distribute_setup
-distribute_setup.use_setuptools()
+import os.path
 from setuptools import setup, find_packages
 
 readme = os.path.join(os.path.dirname(__file__), 'README')
